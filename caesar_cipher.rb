@@ -17,5 +17,4 @@ def caesar_cipher(str, shift)
     return shifted_string
 end
 
-puts caesar_cipher("puluka", 13)
-puts caesar_cipher("What a string!", 5)
+puts caesar_cipher("testing testing", 13)
