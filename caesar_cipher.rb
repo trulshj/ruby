@@ -1,6 +1,7 @@
 
 def caesar_cipher(str, shift)
-    letters = Array('a'..'z')
+    str = str.upcase
+    letters = Array('A'..'Z')
     shifted_string = ""
 
     str.each_char { |c|
@@ -17,4 +18,4 @@ def caesar_cipher(str, shift)
     return shifted_string
 end
 
-puts caesar_cipher("testing testing", 13)
+puts caesar_cipher("pul uka!", 13)
